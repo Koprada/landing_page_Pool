@@ -11,6 +11,7 @@ const colors = require('tailwindcss/colors');
           indigo: colors.indigo,
           amber: colors.amber,
           sky: colors.sky,
+          cyan: colors.cyan,
         }
       },
     },

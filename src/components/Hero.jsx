@@ -38,11 +38,15 @@ const Hero = () => {
             una experiencia inigualable."
           </p>
           <div className="text-center mt-6 md:mt-10 flex justify-center">
-            <button className="bg-indigo-950 text-indigo-100 px-8 py-3 rounded-xl hover:bg-indigo-200 hover:text-indigo-950 transition-colors duration-300">
-              Contáctenos
-            </button>
             <a
-              href="/#Pools"
+              href="/#Contact"
+              className="bg-indigo-950 no-underline text-indigo-100 px-8 py-3 rounded-xl hover:bg-indigo-200 hover:text-indigo-950 transition-colors duration-300"
+            >
+              Contáctenos
+            </a>
+
+            <a
+              href="#Pools"
               className="ml-4 no-underline text-indigo-100 px-8 py-3 rounded-xl border border-indigo-950 hover:bg-indigo-950 hover:text-indigo-100 transition-colors duration-300"
             >
               Nuestras Piscinas

@@ -35,28 +35,28 @@ const Header = () => {
         >
           <a
             href="#Pools"
-            className="text-sky-950 px-2 py-4 rounded no-underline hover:bg-sky-900 transition-colors duration-300 text-xl"
+            className="text-sky-950 px-2 py-4 rounded no-underline hover:bg-cyan-900 hover:text-white transition-colors duration-300 text-xl"
             onClick={handleMenuClose}
           >
             Piscinas
           </a>
           <a
             href="#Services"
-            className="text-sky-950 px-2 py-4 rounded no-underline hover:bg-sky-900 transition-colors duration-300 text-xl"
+            className="text-sky-950 px-2 py-4 rounded no-underline hover:bg-cyan-900 hover:text-white transition-colors duration-300 text-xl"
             onClick={handleMenuClose}
           >
             Servicios
           </a>
           <a
             href="#Testimonials"
-            className="text-sky-950 px-2 py-4 rounded no-underline hover:bg-sky-900 transition-colors duration-300 text-xl"
+            className="text-cyan-950 px-2 py-4 rounded no-underline hover:bg-cyan-900 hover:text-white transition-colors duration-300 text-xl"
             onClick={handleMenuClose}
           >
             Testimonios
           </a>
           <a
             href="#Contact"
-            className="text-sky-950 px-2 py-4 rounded no-underline hover:bg-sky-900 transition-colors duration-300 text-xl"
+            className="text-sky-950 px-2 py-4 rounded no-underline hover:bg-cyan-900 hover:text-white transition-colors duration-300 text-xl"
             onClick={handleMenuClose}
           >
             Contacto
@@ -64,7 +64,7 @@ const Header = () => {
         </nav>
         <button
           onClick={() => setShowMenu(!showMenu)}
-          className=" text-white lg:hidden text-2xl p-2"
+          className=" text-sky-950 lg:hidden text-2xl p-2"
         >
           {showMenu ? <IoClose /> : <IoMenuSharp />}
         </button>

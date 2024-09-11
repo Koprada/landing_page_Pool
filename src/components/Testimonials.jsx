@@ -66,7 +66,7 @@ const Reviews = () => {
   };
 
   return (
-    <div id="Testimonials"   className="p-8 flex flex-col gap-8 bg-indigo-50">
+    <div id="Testimonials"   className="p-8 flex flex-col gap-8 bg-cyan-100">
       <h1 className="text-[40px] text-center font-black">
         Reseñas De Algunos De Nuestros Clientes
       </h1>

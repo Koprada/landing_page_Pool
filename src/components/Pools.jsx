@@ -14,12 +14,12 @@ const Pools = () => {
       className="bg-gray-100 xl:p-30 p-2 flex flex-col md:flex-row items-center justify-center "
     >
       <div className="md:col-span-3 flex flex-col items-center justify-center p-10 order-1 md:order-2">
-        <h1 className="text-4xl md:text-7xl font-bold text-center text-indigo-950 leading-normal">
+        <h1 className="text-4xl md:text-7xl font-bold text-center text-cyan-800 leading-normal">
           Te Presentamos Algunas De Nuestras{" "}
-          <span className="text-indigo-400">Piscinas</span>
+          <span className="text-cyan-950">Piscinas</span>
         </h1>
 
-        <p className="text-lg md:text-xl text-center text-gray-700 mt-4">
+        <p className="text-lg md:text-xl text-center text-gray-700 mt-4 ml-10 mr-10">
           Explora nuestra colección de impresionantes diseños de piscinas que
           combinan estética y funcionalidad. Cada proyecto refleja nuestro
           compromiso con la calidad y el diseño innovador.
