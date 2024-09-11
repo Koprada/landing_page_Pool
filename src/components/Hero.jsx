@@ -1,11 +1,10 @@
 import React from "react";
-import imageHero from "../assets/images/images/poolTechnik.jpg";
-import backgroundImage from "../assets/images/images/ocean-1845110.jpg";
+import imageHero from "../assets/images/images/poolTechnik.png";
 
 const Hero = () => {
   return (
     <section
-      className="min-h-screen w-full grid grid-cols-1 md:grid-cols-8  backdrop-blur-md"
+      className="min-h-screen w-full grid grid-cols-1 md:grid-cols-8  "
     >
       
       <div className="md:col-span-5 flex items-center justify-center p-10">
