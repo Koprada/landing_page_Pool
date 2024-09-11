@@ -1,19 +1,32 @@
 import React from "react";
-import imageHero from "../assets/images/images/poolTechnik.png";
+import videoHero from "../assets/images/images/HeroVideo1.mp4";
 
 const Hero = () => {
   return (
     <section
-      className="min-h-screen w-full grid grid-cols-1 md:grid-cols-8  "
+      id="Hero"
+      className="relative min-h-screen w-full grid grid-cols-1 md:grid-cols-8 overflow-hidden"
     >
-      
-      <div className="md:col-span-5 flex items-center justify-center p-10">
+      {/* Video Background */}
+      <div className="absolute inset-0 z-[-1]">
+        <video
+          src={videoHero}
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover"
+        />
+      </div>
+
+      {/* Content */}
+      <div className="md:col-span-10 flex items-center justify-center p-10 relative ">
         <div>
-          <h1 className="text-4xl md:text-8xl font-bold text-center text-indigo-950">
+          <h1 className="text-4xl md:text-8xl font-bold text-center text-indigo-50">
             El Arte De Crear{" "}
-            <span className="text-indigo-400"> Espacios Acuáticos </span> Únicos
+            <span className="text-indigo-200"> Espacios Acuáticos </span> Únicos
           </h1>
-          <p className="text-center text-gray-500 mt-6 md:mt-10">
+          <p className="text-center text-gray-100 mt-6 md:mt-10">
             "Descubre la fusión perfecta entre arte y funcionalidad con nuestro
             enfoque innovador en el diseño de piscinas. En Tree-a, transformamos
             tu visión en una obra maestra acuática, combinando creatividad y
@@ -29,17 +42,13 @@ const Hero = () => {
               Contáctenos
             </button>
             <a
-              href="/#servicios"
-              className="ml-4 no-underline text-indigo-950 px-8 py-3 rounded-xl border border-indigo-950 hover:bg-indigo-950 hover:text-indigo-100 transition-colors duration-300"
+              href="/#Pools"
+              className="ml-4 no-underline text-indigo-100 px-8 py-3 rounded-xl border border-indigo-950 hover:bg-indigo-950 hover:text-indigo-100 transition-colors duration-300"
             >
               Nuestras Piscinas
             </a>
           </div>
         </div>
-      </div>
-
-      <div className="md:col-span-3 ml-6 mr-6 mt-4 mb-4">
-        <img src={imageHero} alt="Hero" className="w-full rounded-xl" />
       </div>
     </section>
   );

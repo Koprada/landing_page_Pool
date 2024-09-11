@@ -9,6 +9,8 @@ const colors = require('tailwindcss/colors');
       extend: {
         colors:{
           indigo: colors.indigo,
+          amber: colors.amber,
+          sky: colors.sky,
         }
       },
     },

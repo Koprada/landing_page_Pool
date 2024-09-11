@@ -17,17 +17,15 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Aquí podrías agregar lógica para manejar el envío del formulario
     console.log('Form data submitted:', formData);
-    // Resetear el formulario
     setFormData({ name: '', email: '', message: '' });
   };
 
   return (
-    <section className="bg-gray-100 p-8">
-      <div className="max-w-2xl mx-auto bg-white p-6 rounded-lg shadow-lg">
-        <h2 className="text-3xl font-bold text-center mb-6 text-indigo-950">Contacto</h2>
-        <form onSubmit={handleSubmit} className="space-y-4">
+    <section id="Contact" className=" p-8">
+      <div className="max-w-xl mx-auto bg-white p-6 rounded-xl shadow-lg">
+        <h2 className="text-3xl font-bold text-center mb-6 text-indigo-950">No Dudes En Contactarnos</h2>
+        <form onSubmit={handleSubmit} className="space-y-4 ">
           <div>
             <label htmlFor="name" className="block text-lg font-medium text-gray-700">Nombre</label>
             <input

@@ -4,6 +4,7 @@ import Pools from './components/Pools.jsx';
 import Services from './components/Services.jsx';
 import Testimonials from './components/Testimonials.jsx';
 import Contact from './components/Contact.jsx';
+import Footer from './components/Footer.jsx';
 
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
@@ -14,8 +15,15 @@ function App() {
       <Hero/>
       <Pools/>
       <Services/>
-      <Testimonials/>
-      <Contact/>
+      <div className="flex flex-col md:flex-row bg-indigo-50">
+        <div className="w-full md:w-1/2 p-4">
+          <Testimonials/>
+        </div>
+        <div className="w-full md:w-1/2 p-4">
+          <Contact/>
+        </div>
+      </div>
+      <Footer/>
     </div>
   );
 }

@@ -10,7 +10,7 @@ import pool5 from "../assets/images/images_pools/water-3292794.jpg";
 const Pools = () => {
   return (
     <section
-      id="piscinas"
+      id="Pools"
       className="bg-gray-100 xl:p-30 p-2 flex flex-col md:flex-row items-center justify-center "
     >
       <div className="md:col-span-3 flex flex-col items-center justify-center p-10 order-1 md:order-2">

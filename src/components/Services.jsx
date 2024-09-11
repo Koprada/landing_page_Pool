@@ -47,7 +47,7 @@ const services = [
 
 const Services = () => {
   return (
-    <div className="bg-blue-50 py-12 px-4">
+    <div id="Services" className="bg-blue-50 py-12 px-4">
       <h2 className="text-4xl md:text-7xl font-bold text-center text-indigo-950 leading-normal mb-10">
         Te Presentamos Algunos De Nuestros <span className="text-indigo-400"> Servicios </span>
       </h2>
