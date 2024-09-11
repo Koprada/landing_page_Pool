@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -17,8 +18,23 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Form data submitted:', formData);
-    setFormData({ name: '', email: '', message: '' });
+  
+    emailjs
+      .send(
+        'service_z1r12do', // ID del servicio
+        'template_pjthcz5', // ID de la plantilla
+        formData,           // Datos del formulario
+        'cXZ8_vlsvyH4TCZdK'      // Tu User ID de EmailJS
+      )
+      .then(
+        (response) => {
+          alert('Mensaje enviado con éxito');
+          setFormData({ name: '', email: '', message: '' });
+        },
+        (error) => {
+          alert('Hubo un error al enviar el mensaje');
+        }
+      );
   };
 
   return (
