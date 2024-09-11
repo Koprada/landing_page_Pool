@@ -22,11 +22,11 @@ const Header = () => {
   };
 
   return (
-    <header className="relative w-full h-[15vh] z-50 bg-white bg-white">
+    <header className="relative w-full h-[12vh] z-50 bg-white bg-white">
       <div className="absolute inset-0 bg-white" />
       <div className="flex items-center justify-between xl:justify-start w-full p-4 h-full relative">
-        <div className="w-1/6 text-center">
-          <img src={logo} alt="Logo" className="w-30 h-20 relative p-1 ml-5" />
+        <div className="w-1/6  text-center">
+          <img src={logo} alt="Logo" className="lg:w-30 lg:h-20 relative p-1 ml-5" />
         </div>
         <nav
           className={`fixed bg-white w-[80%] md:w-[40%] xl:w-full h-full ${
