@@ -24,7 +24,7 @@ const Contact = () => {
         'service_z1r12do', // ID del servicio
         'template_pjthcz5', // ID de la plantilla
         formData,           // Datos del formulario
-        'cXZ8_vlsvyH4TCZdK'      // Tu User ID de EmailJS
+        'cXZ8_vlsvyH4TCZdK'      //  User ID de EmailJS
       )
       .then(
         (response) => {

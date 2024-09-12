@@ -7,7 +7,6 @@ const Hero = () => {
       id="Hero"
       className="relative min-h-screen w-full grid grid-cols-1 md:grid-cols-8 overflow-hidden"
     >
-      {/* Video Background */}
       <div className="absolute inset-0 z-[-1]">
         <video
           src={videoHero}
@@ -19,7 +18,6 @@ const Hero = () => {
         />
       </div>
 
-      {/* Content */}
       <div className="md:col-span-10 flex items-center justify-center p-10 relative ">
         <div>
           <h1 className="text-4xl md:text-8xl font-bold text-center text-indigo-50">

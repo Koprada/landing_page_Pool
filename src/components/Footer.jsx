@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <footer className="bg-cyan-950 p-8 xl:p-20">
       <div className="flex flex-col md:flex-row items-center justify-between gap-4 border-b border-gray-500 pb-8">
-        <div className="w-1/6 text-center">
+        <div className=" md:w-1/6 text-center">
           <img src={logo} alt="Logo" className="w-30 h-20 relative p-1 ml-5" />
         </div>
         <nav className="flex items-center gap-4">

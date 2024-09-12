@@ -15,7 +15,7 @@ function App() {
       <Hero/>
       <Pools/>
       <Services/>
-      <div className="flex flex-col md:flex-row bg-cyan-100">
+      <div className="flex flex-col md:flex-row bg-white">
         <div className="w-full md:w-1/2 p-4">
           <Testimonials/>
         </div>

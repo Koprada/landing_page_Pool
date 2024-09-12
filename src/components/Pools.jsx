@@ -11,15 +11,15 @@ const Pools = () => {
   return (
     <section
       id="Pools"
-      className="bg-gray-100 xl:p-30 p-2 flex flex-col md:flex-row items-center justify-center "
+      className="xl:p-60 p-2 flex flex-col md:flex-row items-center justify-center"
     >
-      <div className="md:col-span-3 flex flex-col items-center justify-center p-10 order-1 md:order-2">
-        <h1 className="text-4xl md:text-7xl font-bold text-center text-cyan-800 leading-normal">
+      <div className="md:col-span-3 flex flex-col items-center justify-center order-1 md:order-2">
+        <h1 className="text-4xl md:text-7xl font-bold  pt-10 pb-2 text-center text-cyan-600 leading-normal">
           Te Presentamos Algunas De Nuestras{" "}
           <span className="text-cyan-950">Piscinas</span>
         </h1>
 
-        <p className="text-lg md:text-xl text-center text-gray-700 mt-4 ml-10 mr-10">
+        <p className="text-lg md:text-xl text-center text-gray-700 mt-4 ml-10 mr-10 w-5/6">
           Explora nuestra colección de impresionantes diseños de piscinas que
           combinan estética y funcionalidad. Cada proyecto refleja nuestro
           compromiso con la calidad y el diseño innovador.
@@ -27,7 +27,7 @@ const Pools = () => {
 
         <div
           id="carouselExampleControlsNoTouching"
-          className="carousel slide md:col-span-4 ml-6 mr-6 mt-2 mb-2 order-2 md:order-1 w-60vh"
+          className="carousel slide justify-center flex md:col-span-4 w-5/6 pb-10"
           data-bs-touch="false"
           data-bs-interval="false"
         >
@@ -48,11 +48,13 @@ const Pools = () => {
               <img src={pool5} className="d-block w-100" alt="Pool 5" />
             </div>
           </div>
+
           <button
             className="carousel-control-prev"
             type="button"
             data-bs-target="#carouselExampleControlsNoTouching"
             data-bs-slide="prev"
+            style={{ position: "absolute", left: "0" }}
           >
             <span
               className="carousel-control-prev-icon"
@@ -65,6 +67,7 @@ const Pools = () => {
             type="button"
             data-bs-target="#carouselExampleControlsNoTouching"
             data-bs-slide="next"
+            style={{ position: "absolute", right: "0" }}
           >
             <span
               className="carousel-control-next-icon"

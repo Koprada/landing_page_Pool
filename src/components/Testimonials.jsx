@@ -57,7 +57,7 @@ const Reviews = () => {
             {index < rating ? (
               <AiFillStar className="text-yellow-500" />
             ) : (
-              <AiOutlineStar className="text-gray-300" />
+              <AiOutlineStar className="text-gray-800" />
             )}
           </span>
         ))}
@@ -66,7 +66,7 @@ const Reviews = () => {
   };
 
   return (
-    <div id="Testimonials"   className="p-8 flex flex-col gap-8 bg-cyan-100">
+    <div id="Testimonials"   className="p-8 flex flex-col gap-8 bg-blue-100 rounded-xl">
       <h1 className="text-[40px] text-center font-black">
         Reseñas De Algunos De Nuestros Clientes
       </h1>
@@ -74,7 +74,7 @@ const Reviews = () => {
         <span className="text-5xl text-primary">
           <RiDoubleQuotesL />
         </span>
-        <p className="max-w-2xl text-center text-gray-500">
+        <p className="max-w-2xl text-center text-black">
           {currentReview.comment}
         </p>
         <span className="text-5xl text-primary">
