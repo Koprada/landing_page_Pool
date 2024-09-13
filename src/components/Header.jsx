@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import logo from "../assets/images/images/Logo.png";
 import { IoMenuSharp, IoClose } from "react-icons/io5";
 
 const Header = () => {
@@ -7,12 +6,12 @@ const Header = () => {
 
   const handleMenuClose = (event) => {
     event.preventDefault();
-    const href = event.target.getAttribute('href');
+    const href = event.target.getAttribute("href");
 
     if (href) {
       const targetElement = document.querySelector(href);
       if (targetElement) {
-        targetElement.scrollIntoView({ behavior: 'smooth' });
+        targetElement.scrollIntoView({ behavior: "smooth" });
       }
     }
 
@@ -26,7 +25,10 @@ const Header = () => {
       <div className="absolute inset-0 bg-white" />
       <div className="flex items-center justify-between xl:justify-start w-full p-4 h-full relative">
         <div className="w-1/6  text-center">
-          <img src={logo} alt="Logo" className="lg:w-30 lg:h-20 relative p-1 ml-5" />
+          <img
+            alt="Logo"
+            className="lg:w-30 lg:h-20 relative p-1 ml-5"
+          />
         </div>
         <nav
           className={`fixed bg-white w-[80%] md:w-[40%] xl:w-full h-full ${

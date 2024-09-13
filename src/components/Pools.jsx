@@ -26,7 +26,7 @@ const Pools = () => {
         </p>
 
         <div
-          id="carouselExampleControlsNoTouching"
+          id="carouselControlsNoTouching"
           className="carousel slide justify-center flex md:col-span-4 w-5/6 pb-10"
           data-bs-touch="false"
           data-bs-interval="false"
@@ -52,7 +52,7 @@ const Pools = () => {
           <button
             className="carousel-control-prev"
             type="button"
-            data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-target="#carouselControlsNoTouching"
             data-bs-slide="prev"
             style={{ position: "absolute", left: "0" }}
           >
@@ -65,7 +65,7 @@ const Pools = () => {
           <button
             className="carousel-control-next"
             type="button"
-            data-bs-target="#carouselExampleControlsNoTouching"
+            data-bs-target="#carouselControlsNoTouching"
             data-bs-slide="next"
             style={{ position: "absolute", right: "0" }}
           >

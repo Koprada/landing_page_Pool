@@ -26,7 +26,7 @@ const Hero = () => {
           </h1>
           <p className="text-center text-gray-100 mt-6 md:mt-10">
             "Descubre la fusión perfecta entre arte y funcionalidad con nuestro
-            enfoque innovador en el diseño de piscinas. En Tree-a, transformamos
+            enfoque innovador en el diseño de piscinas. En nuestra empresa, transformamos
             tu visión en una obra maestra acuática, combinando creatividad y
             técnica para crear espacios únicos que reflejan tu estilo personal.
             Desde elegantes formas hasta detalles impresionantes, cada proyecto
